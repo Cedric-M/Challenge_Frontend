@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    	<title>Challenge_Frontend</title>
+
+        <!-- METADATA -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Challenge Frontend">
+         <meta name="keywords" content="HTML,CSS,Challenge,HelloPrint">
+        <meta name="author" content="Cédric M.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/main.css" />
+    	<link rel="stylesheet" href="assets/css/form.css" />
+    	<link rel="stylesheet" href="assets/css/responsive.css" />
+
+    </head>
+    <body>
+
+    <div class="border-main margin padding">
+
+        <div class="header">
+            <a class="limited">
+                <img src="assets/img/header_banner.png" alt="header_banner" class="img-responsive">
+            </a>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <div class="box-center">
+                    <div class="border-little text-center grey">
+                            <label for="guessedNb">Enter a number<br>between 0 and 100</label>
+                            <input type="number" min="0" max="100" name="guessedNb" id="input" class="player1">
+                            <button value="1" type="button" class="button-submit" onclick="loadXMLHttpRequest('button1')" id="button1">Submit</button>
+                        <div id="response1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box-center">
+                    <div class="border-little text-center grey">
+                            <label for="guessedNb">Enter a number<br>between 0 and 100</label>
+                            <input type="number" min="0" max="100" name="guessedNb" class="player2">
+                            <button value="2" type="button" class="button-submit" onclick="loadXMLHttpRequest('button2')" id="button2">Submit</button>
+                        <div id="response2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="box-center">
+                    <div class="border-little text-center grey">
+                            <label for="guessedNb">Enter a number<br>between 0 and 100</label>
+                            <input type="number" min="0" max="100" name="guessedNb" class="player3">
+                            <button value="3" type="button" class="button-submit" onclick="loadXMLHttpRequest('button3')" id="button3">Submit</button>
+                        <div id="response3"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+        <!-- Javascript -->
+        <script src="assets/js/script.js"></script>
+
+    </body>
+</html>

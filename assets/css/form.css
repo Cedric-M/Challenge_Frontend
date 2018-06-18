@@ -1,0 +1,32 @@
+input[type=number], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 5px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-width:90px;
+}
+
+.button-submit {
+    width: 27%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 4px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width:81px;
+    border: 2px #45a049 solid;
+}
+
+.button-submit:hover {
+    background-color: #45a049; /* Green */
+}
+
+.button-submit:disabled {
+    background-color: #e24d4d; /* Red */
+    border: 2px #e24d4d solid;
+}
